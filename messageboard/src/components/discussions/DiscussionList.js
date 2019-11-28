@@ -1,14 +1,14 @@
 import React from 'react'
 import DiscussionSummary from './DiscussionSummary'
 
-const DiscussionList = () => {
+const DiscussionList = ({discussions}) => {
     return (
         <div className="discussion-list section">
-            <DiscussionSummary />
-            <DiscussionSummary />
-            <DiscussionSummary />
-            <DiscussionSummary />
-            <DiscussionSummary />
+            { discussions && discussions.map(discussion => {
+                return (
+                    <DiscussionSummary discussion={discussion} key={discussion.id} />
+                )
+            })}
         </div>
     )
 }
