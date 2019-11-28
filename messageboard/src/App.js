@@ -17,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Dashboard} />
           <Route path='/discussion/:id' component={DiscussionDetails} />
+          <Route path='/signin' component={SignIn} />
         </Switch>
       </div>
     </BrowserRouter>
