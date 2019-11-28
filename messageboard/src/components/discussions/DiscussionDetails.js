@@ -12,7 +12,7 @@ export const DiscussionDetails = (props) => {
                         accusantium nisi velit consequuntur amet, deleniti fuga blanditiis quibusdam.</p>
                 </div>
                 <div className="card-action grey lighten-4 grey-text">
-                    <div>Posted by JD</div>
+                    <div>Posted by Jayden</div>
                     <div>29th August 2019</div>
                 </div>
             </div>
