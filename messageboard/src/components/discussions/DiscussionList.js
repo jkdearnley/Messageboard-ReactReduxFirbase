@@ -7,7 +7,7 @@ const DiscussionList = () => {
                 <div className="card-content grey-text text-darken-3">
                     <span className="card-title">Discussion Title</span>
                     <p>Posted by JD</p>
-                    <p className="grey-text">29th August</p>
+                    <p className="grey-text">29th August 2019</p>
                 </div>
             </div>    
 
@@ -15,7 +15,7 @@ const DiscussionList = () => {
                 <div className="card-content grey-text text-darken-3">
                     <span className="card-title">Discussion Title</span>
                     <p>Posted by JD</p>
-                    <p className="grey-text">29th August</p>
+                    <p className="grey-text">29th August 2019</p>
                 </div>
             </div> 
 
@@ -23,7 +23,7 @@ const DiscussionList = () => {
                 <div className="card-content grey-text text-darken-3">
                     <span className="card-title">Discussion Title</span>
                     <p>Posted by JD</p>
-                    <p className="grey-text">29th August</p>
+                    <p className="grey-text">29th August 2019</p>
                 </div>
             </div> 
 
@@ -31,7 +31,7 @@ const DiscussionList = () => {
                 <div className="card-content grey-text text-darken-3">
                     <span className="card-title">Discussion Title</span>
                     <p>Posted by JD</p>
-                    <p className="grey-text">29th August</p>
+                    <p className="grey-text">29th August 2019</p>
                 </div>
             </div> 
         </div>
