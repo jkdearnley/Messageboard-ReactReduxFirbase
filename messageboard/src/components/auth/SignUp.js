@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 
 class SignUp extends Component {
     state = {
-        email: '',
-        password: '',
+        userName: '',
         firstName: '',
         lastName: '',
-        username: ''
+        email: '',
+        password: ''
     }
 
     handleChange = (e) => {
@@ -43,15 +43,11 @@ class SignUp extends Component {
                         <input type="email" id="email" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" id="email" onChange={this.handleChange} />
-                    </div>
-                    <div className="input-field">
                         <label htmlFor="password">Password</label>
                         <input type="password" id="password" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
-                        <button className="btn blue darken-1 z-depth-0">Login</button>
+                        <button className="btn blue darken-1 z-depth-0">Sign Up</button>
                     </div>
                 </form>
             </div>
