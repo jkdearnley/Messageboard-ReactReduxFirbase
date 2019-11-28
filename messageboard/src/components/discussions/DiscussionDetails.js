@@ -6,7 +6,7 @@ export const DiscussionDetails = (props) => {
         <div className="container section discussion-details">
             <div className="car z-depth-0">
                 <div className="card-content">
-                    <span className="card-title">Dummy Title - {id}</span>
+                    <div className="card-title">Dummy Title - {id}</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Expedita provident suscipit molestias ipsa id obcaecati eligendi sapiente adipisci quasi aliquam ipsum,
                         accusantium nisi velit consequuntur amet, deleniti fuga blanditiis quibusdam.</p>
