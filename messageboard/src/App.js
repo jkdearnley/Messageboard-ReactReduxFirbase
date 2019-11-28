@@ -15,7 +15,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path='/' component={Dashboard} />
+          <Route exact path='/' component={Dashboard} />
+          <Route path='/discussion/:id' component={DiscussionDetails} />
         </Switch>
       </div>
     </BrowserRouter>
