@@ -8,6 +8,10 @@ const initState = {
 }
 
 const discussionReducer = (state = initState, action) => {
+    switch (action.type) {
+        case 'CREATE_DISCUSSION':
+            console.log('created discussion', action.discussion)
+    }
     return state
 }
 

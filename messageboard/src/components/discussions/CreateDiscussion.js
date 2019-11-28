@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { createDiscussion } from '../../store/actions/discussionActions'
 
 
 class CreateDiscussion extends Component {
@@ -15,7 +17,7 @@ class CreateDiscussion extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state)
+        this.props.createDiscussion(this.state)
     }
 
     render() {
@@ -40,5 +42,10 @@ class CreateDiscussion extends Component {
     }
 }
 
+const mapDispatchToProps = (dispatch) => {
+    return {
+        createDiscussion: (discussion) => dispatch(createDiscussion(discussion))
+    }
+}
 
-export default CreateDiscussion
+export default connect(null, mapDispatchToProps)(CreateDiscussion)
